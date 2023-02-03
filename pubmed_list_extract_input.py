@@ -1,5 +1,10 @@
 
 
+""" Python script that ask user his last name and initials to provide a csv file containing list of publications extract from pubmed website. 
+Are detailed for each article : the title, author's list and journal informations.
+Using beautiful soup and requests libraries
+""" 
+
 #importing packages and librarys 
 import requests
 from bs4 import BeautifulSoup
